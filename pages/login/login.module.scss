@@ -1,0 +1,75 @@
+.wrapper {
+    margin: 0;
+    padding: 0;
+    background-image: url('../../source/images/Frame_6.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+  color: rgb(98, 154, 219);
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+  border-bottom: 1px solid rgb(98, 154, 219);
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form_field {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid rgb(224, 215, 215);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  padding: 30px;
+  width: 500px;
+}
+
+.row {
+  background-color: #f9fafb;
+  border: 1px solid rgb(224, 215, 215);
+  width: 100%;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.row:hover {
+  border: 1px solid rgb(98, 154, 219);
+}
+
+.button {
+  font-weight: 600;
+  padding: 15px;
+  width: 100%;
+  color: white;
+  background-color: rgb(98, 154, 219);
+  border: 1px solid rgb(98, 154, 219);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  border: 1px solid rgb(98, 154, 219);
+  color: rgb(98, 154, 219);
+}
+
+.error {
+  color: red;
+  margin-bottom: 5px;
+  font-weight: 600;
+}

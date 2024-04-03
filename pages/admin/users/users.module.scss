@@ -1,0 +1,40 @@
+.wrapper {
+ display: block;
+ padding: 20px;
+}
+
+.h_title {
+  margin-bottom: 20px;
+}
+
+.title_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: Arial, sans-serif;
+}
+.item {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title {
+  background-color: #f2f2f2;
+}
+.row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.row:hover {
+  background-color: #dddddd;
+}

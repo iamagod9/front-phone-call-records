@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  flex: 0 0 150px; /* flex-grow: 0, flex-shrink: 0, flex-basis: 150px */
+}
+
+.content {
+  flex: 1; /* flex-grow: 1, занимает оставшееся пространство */
+  background-color: #f9fafb;
+}

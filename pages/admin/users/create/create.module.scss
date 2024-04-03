@@ -1,0 +1,92 @@
+.title {
+  font-size: 23px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.title_row {
+  font-weight: 600;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  height: 100%;
+  width: 500px;
+}
+
+.wrapper {
+  display: block;
+  background-color: white;
+  border: 1px solid rgb(224, 215, 215);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  padding: 30px;
+  width: 500px;
+}
+
+.row {
+  background-color: #f9fafb;
+  border: 1px solid rgb(224, 215, 215);
+  width: 100%;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.row:hover {
+  border: 1px solid rgb(98, 154, 219);
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.dropdown_wrapper {
+  width: 47%;
+}
+
+.wrapper_buttons {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.button {
+  font-weight: 600;
+  padding: 15px;
+  width: 45%;
+  color: white;
+  background-color: rgb(98, 154, 219);
+  border: 1px solid rgb(98, 154, 219);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button_cancel {
+  background-color: rgb(220, 27, 23);
+  border: 1px solid rgb(220, 27, 23);
+}
+
+.button:hover {
+  background-color: white;
+  border: 1px solid rgb(98, 154, 219);
+  color: rgb(98, 154, 219);
+}
+
+.button_cancel:hover {
+  background-color: white;
+  border: 1px solid rgb(220, 27, 23);;
+  color: rgb(220, 27, 23);;
+}
+
+.error {
+  color: red;
+  margin-left: 12px;
+}

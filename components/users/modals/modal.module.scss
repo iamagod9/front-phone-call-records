@@ -1,0 +1,147 @@
+.title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.row_name {
+  font-weight: 600;
+}
+
+.row_value {
+  margin-left: 10px;
+}
+
+.wrapper_row_value {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.change_row {
+  padding: 12px;
+  margin-left: 15px;
+  width: 100%;
+  background-color: #f9fafb;
+  border: 1px solid rgb(224, 215, 215);
+  border-radius: 10px;
+}
+
+.icon {
+  font-size: 35px;
+  color: blue;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.icon_change {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75px;
+  margin-left: 15px;
+}
+
+.icon_save_edit {
+  color: green;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.icon_save_edit:hover {
+  color: rgb(91, 200, 233);
+}
+
+.icon_cancel_edit {
+  color: red;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.icon_cancel_edit:hover {
+  color: rgb(91, 200, 233);
+}
+
+.wrapper_dropdown {
+  width: 100%;
+}
+
+.link {
+  color: blue;
+}
+
+.link:hover {
+  color: rgb(98, 154, 219);
+}
+
+.link.active {
+  color: red;
+  border-bottom: 1px solid red;
+  margin-bottom: 5px;
+}
+
+.link.active:hover {
+  color: rgb(187, 106, 106);
+}
+
+.password_field {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #f9fafb;
+  border: 1px solid rgb(224, 215, 215);
+}
+
+.error {
+  color: red;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.button_cancel {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 10px;
+  width: 49%;
+  color: white;
+  background-color: rgb(220, 27, 23);
+  border: 1px solid rgb(220, 27, 23);
+  border-radius: 10px;
+}
+
+.button_cancel:hover {
+  background-color: white;
+  border: 1px solid rgb(220, 27, 23);
+  color: rgb(220, 27, 23);
+}
+
+.button_save {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 10px;
+  width: 49%;
+  color: white;
+  background-color: rgb(98, 154, 219);
+  border: 1px solid rgb(98, 154, 219);
+  border-radius: 10px;
+}
+
+.button_save:hover {
+  background-color: white;
+  border: 1px solid rgb(98, 154, 219);
+  color: rgb(98, 154, 219);
+}
